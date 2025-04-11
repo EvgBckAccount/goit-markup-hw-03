@@ -51,7 +51,7 @@ a {
 
 .header-logo {
     padding: 24px 0;
-    margin-right: 56px;
+    margin-right: 76px;
 }
 
 .header-logo .logo-part {
@@ -106,7 +106,8 @@ a {
 }
 
 .introduction {
-    background-color: #2e2f42
+    background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .title {
@@ -119,6 +120,10 @@ a {
     color: #fff;
 }
 
+.h1-title{
+    max-width: 496px;
+}
+
 .btn-order {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
@@ -127,6 +132,16 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+}
+
+.btn-fix {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-order:hover,
@@ -144,6 +159,43 @@ a {
     color: #2e2f42;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.goals-section {
+    padding: 120px 0;
+}
+
+.goals-flex {
+    display: flex;
+    gap: 24px;
+
+}
+
+.goals {
+    margin-right: 24px;
+}
+
+.goals-item-flex {
+    width: calc((100% - 72px) / 4);
+}
+
+.goals-h3 {
+    margin-bottom: 8px;
+}
+
+.goals-item-last {
+    margin-right: 0;
+}
+
 .goals-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -159,8 +211,18 @@ a {
 
 .team {
     background-color: #F4F4FD;
+    padding: 188px 0;
 }
 
+.team-title-flex {
+    margin-bottom: 72px;
+}
+
+.team-list-flex {
+    display: flex;
+    gap: 24px;
+}
+    
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -183,8 +245,34 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    margin-right: 24px;
 }
 
+.team-item-flex {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.work-name {
+    padding: 32px 0;
+}
+
+.team-name-h3 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-role-flex {
+    text-align: center;
+}
+
+.team-item-last {
+    margin-right: 0;
+}
+
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
@@ -195,12 +283,34 @@ a {
     background-color: #FFFFFF
 }
 
+.portfolio-title-h2 {
+    margin-bottom: 72px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.performed-name {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .performed {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .product-type {
@@ -210,10 +320,19 @@ a {
 
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.logo-item {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .for-you {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD
+}
+.for-us {
+    max-width: 264px;
 }
